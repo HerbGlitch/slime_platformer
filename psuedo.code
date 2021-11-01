@@ -1,0 +1,38 @@
+key::ESC -> quit
+
+Splash
+    Displays logo && creators -> goto game state after x seconds
+
+Menu
+    Play -> changes state to game state
+    Options -> changes state to options state
+    Exit -> quit
+
+    background -> picture of sexy bob
+
+World
+    player hub
+    choose level -> level state(playerData)
+
+Level
+    UI -> displayes health, xp, stats, ammo, etc (map)
+    lvlID = map of world with spawn coords (probs read in from a png)
+    player -> 
+        gravity
+        health
+        points
+        skilltree?
+        playerStateAutomita -> move, jump, animations, ..etc
+
+    enemy ->
+        mele
+        range?
+
+level Editor
+    saves as .lvl
+
+
+    enter (spawn coords)
+    exit (exit coords)
+
+
