@@ -1,19 +1,16 @@
 #pragma once
 #include <ge.hpp>
-#include "../menu/menu.hpp"
 
 namespace deeep {
-    class Splash : public ge::State {
+    class Ui {
     public:
-        Splash();
-        ~Splash();
+        Ui();
+        ~Ui();
 
         void update();
         void render();
 
     private:
         ge::Sprite *title;
-
-        float time;
     };
 }

@@ -8,6 +8,8 @@ add_executable(${PROJECT_NAME}
     src/main.cpp
 
     src/splash/splash.cpp
+
+    src/menu/menu.cpp
 )
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
